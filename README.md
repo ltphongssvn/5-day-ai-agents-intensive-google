@@ -1,4 +1,3 @@
-# ~/code/ltphongssvn/5-day-ai-agents-intensive-google/README.md
 
 # 5-Day AI Agents Intensive Course with Google
 
