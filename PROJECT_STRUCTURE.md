@@ -1,4 +1,4 @@
-# PROJECT_STRUCTURE.md - Complete project structure overview
+#### PROJECT_STRUCTURE.md - Complete project structure overview
 
 # 5-Day AI Agents Intensive - Project Structure
 
