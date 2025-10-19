@@ -1,0 +1,42 @@
+# pyproject.toml - Project configuration for 5-day AI Agents Intensive
+
+[project]
+name = "ai-agents-intensive"
+version = "0.1.0"
+description = "5-Day AI Agents Intensive Course Implementation"
+requires-python = ">=3.13"
+dependencies = [
+    "openai>=1.0.0",
+    "anthropic>=0.34.0",
+    "google-generativeai>=0.8.0",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ai_agents_intensive"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+]
+memory = [
+    "chromadb>=0.4.0",
+    "sentence-transformers>=2.2.0",
+]
+observability = [
+    "opentelemetry-api>=1.20.0",
+    "opentelemetry-sdk>=1.20.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
