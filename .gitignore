@@ -33,6 +33,10 @@ htmlcov/
 
 # OS
 .DS_Store
-Thumbs.dbgcloud-credentials.json
-.backups/
+Thumbs.db
+
+# Google Cloud credentials
+gcloud-credentials.json
+
+# Backups
 .backups/
