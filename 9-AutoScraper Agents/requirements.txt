@@ -1,0 +1,5 @@
+google-genai
+google-adk
+requests
+beautifulsoup4
+lxml
