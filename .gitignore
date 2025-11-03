@@ -34,3 +34,9 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+
+# Google Cloud credentials
+gcloud-credentials.json
+
+# Backups
+.backups/
